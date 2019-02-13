@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane prefHeight="720" prefWidth="939.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <Pane prefHeight="720.0" prefWidth="380.0">
+        <children>
+            <TextArea fx:id="aanmelden" layoutX="43.0" layoutY="39.0" prefHeight="91.0" prefWidth="195.0" text="Aanmelden" />
+            <TextArea fx:id="tafelnummer" layoutX="43.0" layoutY="220.0" prefHeight="81.0" prefWidth="195.0" text="Tafelnr." />
+            <Button fx:id="aanmeldenenter" layoutX="77.0" layoutY="141.0" mnemonicParsing="false" text="ENTER" />
+            <Button fx:id="tafelenter" layoutX="83.0" layoutY="328.0" mnemonicParsing="false" text="ENTER" />
+            <TextArea fx:id="totaal" layoutX="67.0" layoutY="438.0" prefHeight="200.0" prefWidth="200.0" text="TOTAAL" />
+        </children></Pane>
+    <Pane layoutX="314.0" layoutY="26.0" prefHeight="720.0" prefWidth="195.0">
+        <children>
+            <Button fx:id="addcola" layoutX="19.0" layoutY="263.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="149.0" text="Cola" />
+            <Button fx:id="addfanta" layoutX="19.0" layoutY="346.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="149.0" text="Fanta" />
+            <Button fx:id="addsprite" layoutX="19.0" layoutY="433.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="149.0" text="sprite" />
+            <Button fx:id="addbier" layoutX="19.0" layoutY="514.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="149.0" text="Bier" />
+            <Button fx:id="addcocktail" layoutX="19.0" layoutY="597.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="149.0" text="Cocktail" />
+            <Button fx:id="plus" layoutX="19.0" layoutY="92.0" mnemonicParsing="false" text="+" />
+            <Button fx:id="min" layoutX="120.0" layoutY="92.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="61.0" text="-" />
+        </children></Pane>
+    <Pane layoutX="620.0" layoutY="-7.0" prefHeight="706.0" prefWidth="330.0">
+        <children>
+            <Button fx:id="bevestig" layoutX="5.0" layoutY="22.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="299.0" text="bevestig" />
+            <Button fx:id="afdrukken" layoutX="5.0" layoutY="130.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="299.0" text="afdrukken" />
+            <TextArea fx:id="totaalsom" layoutX="24.0" layoutY="556.0" prefHeight="91.0" prefWidth="283.0" text="Totaalsom" />
+            <TextField fx:id="rekeningbevestig" layoutX="62.0" layoutY="255.0" prefHeight="65.0" prefWidth="186.0" text="rekening is bevestigd" />
+        </children>
+    </Pane>
+</Pane>
